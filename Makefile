@@ -1,3 +1,6 @@
+TEST_FLAGS = --cov
+TEST_PATH = src/
+
 .PHONY: install
 install: poetry.lock
 	poetry install $(POETRY_EXTRA)
