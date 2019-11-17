@@ -1,8 +1,10 @@
 <p align="center">
-<a href="https://github.com/ambv/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
-<a href="https://travis-ci.org/spapanik/teritorio"><img alt="Build Status" src="https://travis-ci.org/spapanik/teritorio.svg?branch=master"></a>
-<a href="https://coveralls.io/github/spapanik/teritorio"><img alt="Coverage Status" src="https://coveralls.io/repos/github/spapanik/teritorio/badge.svg?branch=master"></a>
+<a href="https://travis-ci.org/spapanik/teritorio"><img alt="Build" src="https://travis-ci.org/spapanik/teritorio.svg?branch=master"></a>
+<a href="https://coveralls.io/github/spapanik/teritorio"><img alt="Coverage" src="https://coveralls.io/repos/github/spapanik/teritorio/badge.svg?branch=master"></a>
+<a href="https://github.com/spapanik/teritorio/blob/master/LICENSE.txt"><img alt="License" src="https://img.shields.io/github/license/spapanik/teritorio"></a>
 <a href="https://pypi.org/project/teritorio"><img alt="PyPI" src="https://img.shields.io/pypi/v/teritorio"></a>
+<a href="https://pepy.tech/project/teritorio"><img alt="Downloads" src="https://pepy.tech/badge/teritorio"></a>
+<a href="https://github.com/psf/black"><img alt="Code style" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 </p>
 
 # teritorio: ISO codes for countries and currencies
