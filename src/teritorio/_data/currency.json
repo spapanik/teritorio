@@ -738,7 +738,7 @@
             "COMOROS (THE)"
         ],
         "minor_units": 0,
-        "name": "Comorian Franc ",
+        "name": "Comorian Franc",
         "numeric_code": 174
     },
     "KPW": {
@@ -1582,7 +1582,7 @@
     "XDR": {
         "code": "XDR",
         "entities": [
-            "INTERNATIONAL MONETARY FUND (IMF)\u00a0"
+            "INTERNATIONAL MONETARY FUND (IMF)"
         ],
         "minor_units": null,
         "name": "SDR (Special Drawing Right)",
