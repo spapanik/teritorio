@@ -14,7 +14,7 @@ sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER", "TEST
 
 [tool.poetry]
 name = "teritorio"
-version = "1.0.0"
+version = "1.0.1"
 description = "A library for country and currency ISO codes"
 authors = ["Stephanos Kuma <spapanik21@gmail.com>"]
 
