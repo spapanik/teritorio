@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Typos
 
+## [1.0.0] - 2019-11-14
 ### Added
 - Currency ISO codes
 - Country ISO codes
