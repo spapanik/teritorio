@@ -27,14 +27,14 @@ repository = "https://github.com/spapanik/teritorio"
 keywords = ["iso", "currency", "country"]
 classifiers=[
     "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3 :: Only",
     "Intended Audience :: Financial and Insurance Industry",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent"
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 black = {version = "*", allows-prereleases = true}
