@@ -19,6 +19,9 @@ class DataListIterator:
     def __init__(self, data):
         self.values = (data[key] for key in sorted(data))
 
+    def __iter__(self):
+        return self
+
     def __next__(self):
         return next(self.values)
 
