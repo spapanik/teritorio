@@ -29,9 +29,7 @@ repository = "https://github.com/spapanik/teritorio"
 keywords = ["iso", "currency", "country"]
 classifiers=[
     "Development Status :: 5 - Production/Stable",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Programming Language :: Python :: 3 :: Only",
     "Intended Audience :: Financial and Insurance Industry",
 ]
 
