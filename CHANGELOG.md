@@ -15,9 +15,9 @@ The format is based on [Keep a Changelog][clog], and this project adheres to [Se
 - Added country ISO codes (ISO-3166)
 
 
-[unreleased]: https://github.com/spapanik/yashiro/compare/v1.0.1...master
-[1.0.1]: https://github.com/spapanik/yashiro/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/spapanik/yashiro/releases/tag/v1.0.0
+[unreleased]: https://github.com/spapanik/teritorio/compare/v1.0.1...master
+[1.0.1]: https://github.com/spapanik/teritorio/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/spapanik/teritorio/releases/tag/v1.0.0
 
 [clog]: https://keepachangelog.com/en/1.0.0/
 [semver]: https://semver.org/spec/v2.0.0.html
