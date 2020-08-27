@@ -45,6 +45,5 @@ commands = [
 ["requirements.txt"]
 requires = ["poetry.lock"]
 commands = [
-    "poetry install ${poetry_extra}",
     "poetry export --without-hashes -f requirements.txt -o ${.target}",
 ]
