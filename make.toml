@@ -29,7 +29,7 @@ phony = true
 requires = ["install"]
 commands = [
     "flake8",
-    "isort --check-only .",
+    "isort --check .",
     "black --check .",
 ]
 
