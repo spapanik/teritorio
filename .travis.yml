@@ -10,6 +10,7 @@ install:
   - "yam"
 
 script:
+  - "yamk lint"
   - "yamk tests"
 
 after_success:
