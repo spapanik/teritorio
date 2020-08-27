@@ -2,6 +2,9 @@
 __pycache__/
 requirements.txt
 
+# installation
+.yamk/
+
 # build
 dist/
 *.egg-info/

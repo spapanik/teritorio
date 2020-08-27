@@ -10,6 +10,7 @@ alias = "install"
 
 [install]
 phony = true
+keep_ts = true
 requires = ["requirements.txt"]
 commands = [
     "poetry install ${poetry_extra}",
@@ -17,6 +18,7 @@ commands = [
 
 [format]
 phony = true
+requires = ["install"]
 commands = [
     "isort .",
     "black .",
@@ -24,6 +26,7 @@ commands = [
 
 [lint]
 phony = true
+requires = ["install"]
 commands = [
     "flake8",
     "isort --check-only .",
@@ -32,6 +35,7 @@ commands = [
 
 [tests]
 phony = true
+requires = ["install"]
 commands = [
     "pytest ${pytest_args} ${pytest_path}",
 ]
