@@ -27,7 +27,7 @@ include = ["CHANGELOG.md"]
 repository = "https://github.com/spapanik/teritorio"
 
 keywords = ["iso", "currency", "country"]
-classifiers=[
+classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Operating System :: OS Independent",
     "Intended Audience :: Financial and Insurance Industry",
