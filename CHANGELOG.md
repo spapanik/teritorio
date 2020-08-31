@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog][clog], and this project adheres to [Semantic Versioning][semver].
 
 ## [Unreleased]
+- Add support for python 3.6
 
 ## [1.0.1] - 2019-11-21
 ### Fixed
