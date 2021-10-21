@@ -5,6 +5,9 @@ The format is based on [Keep a Changelog][clog], and this project adheres to [Se
 
 ## [Unreleased]
 
+### Added
+- Added python310 support
+
 ## [1.1.0] - 2020-08-31
 ### Added
 - Add support for python 3.6
