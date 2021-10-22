@@ -1,13 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog][clog], and this project adheres to [Semantic Versioning][semver].
+The format is based on [Keep a Changelog][clog], and this project adheres to [Calendar Versioning][calver].
 
 ## [Unreleased]
 
 ### Added
 - Added python310 support
 - Added VED
+
+### Changed
+- Changed versioning scheme to calendar versioning
 
 ## [1.1.0] - 2020-08-31
 ### Added
@@ -29,4 +32,4 @@ The format is based on [Keep a Changelog][clog], and this project adheres to [Se
 [1.0.0]: https://github.com/spapanik/teritorio/releases/tag/v1.0.0
 
 [clog]: https://keepachangelog.com/en/1.0.0/
-[semver]: https://semver.org/spec/v2.0.0.html
+[calver]: https://calver.org

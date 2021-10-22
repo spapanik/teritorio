@@ -54,3 +54,11 @@ print(currencies.GBP)  # Currency(code='GBP', name='Pound Sterling', entities=['
 # access the currency with square brackets
 print(currencies["GBP"])  # Currency(code='GBP', name='Pound Sterling', entities=['GUERNSEY', 'ISLE OF MAN', 'JERSEY', 'UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)'], numeric_code=826, minor_units=2)
 ```
+
+## Versioning
+
+The project project adheres to [Calendar Versioning][calver]. The reason is that the data are dominated by political decisions, making semantic versioning largely irrelevant.
+
+
+
+[calver]: https://calver.org
