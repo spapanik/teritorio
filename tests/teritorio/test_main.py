@@ -35,7 +35,7 @@ class TestCurrencies:
         assert jpy.minor_units == 0
 
     def test_number_of_currencies(self):
-        assert len(self.currencies) == 179
+        assert len(self.currencies) == 180
 
     def test_singleton(self):
         currencies = main.Currencies()
