@@ -13,7 +13,7 @@
 
 ### Installation
 
-_teritorio_ can be installed by running `pip install teritorio`. It requires Python 3.7.0+ to run.
+_teritorio_ can be installed by running `pip install teritorio`. It requires Python 3.6.2+ to run.
 
 ### Usage
 
