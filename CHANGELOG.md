@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog][clog], and this project adheres to [Se
 
 ### Added
 - Added python310 support
+- Added VED
 
 ## [1.1.0] - 2020-08-31
 ### Added

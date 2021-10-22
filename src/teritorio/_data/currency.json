@@ -1468,6 +1468,15 @@
         "name": "Bol\u00edvar Soberano",
         "numeric_code": 928
     },
+    "VED": {
+        "code": "VED",
+        "entities": [
+            "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
+        ],
+        "minor_units": 2,
+        "name": "Bol\u00edvar Soberano",
+        "numeric_code": 926
+    },
     "VND": {
         "code": "VND",
         "entities": [
