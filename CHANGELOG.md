@@ -5,6 +5,7 @@ The format is based on [Keep a Changelog][clog], and this project adheres to [Ca
 
 ## [Unreleased]
 
+## [2021.10.22]
 ### Added
 - Added python310 support
 - Added VED
@@ -26,7 +27,8 @@ The format is based on [Keep a Changelog][clog], and this project adheres to [Ca
 - Added country ISO codes (ISO-3166)
 
 
-[unreleased]: https://github.com/spapanik/teritorio/compare/v1.1.0...master
+[unreleased]: https://github.com/spapanik/teritorio/compare/v2021.10.22...master
+[2021.10.22]: https://github.com/spapanik/teritorio/compare/v1.1.0...v2021.10.22
 [1.0.1]: https://github.com/spapanik/teritorio/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/spapanik/teritorio/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/spapanik/teritorio/releases/tag/v1.0.0
