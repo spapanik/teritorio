@@ -9,6 +9,9 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+`2022.01.05`_
+-------------
+
 Removed
 ^^^^^^^
 * Dropped python36 support
@@ -49,6 +52,7 @@ Added
 
 
 .. _`unreleased`: https://github.com/spapanik/teritorio/compare/v2021.10.22...master
+.. _`2022.01.05`: https://github.com/spapanik/teritorio/compare/v2021.10.22...v2022.01.05
 .. _`2021.10.22`: https://github.com/spapanik/teritorio/compare/v1.1.0...v2021.10.22
 .. _`1.1.0`: https://github.com/spapanik/teritorio/compare/v1.0.1...v1.1.0
 .. _`1.0.1`: https://github.com/spapanik/teritorio/compare/v1.0.0...v1.0.1
