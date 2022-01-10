@@ -9,6 +9,10 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+Removed
+^^^^^^^
+* Removed changelog from the published wheel
+
 `2022.01.05`_
 -------------
 
