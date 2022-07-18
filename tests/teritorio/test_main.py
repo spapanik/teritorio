@@ -5,7 +5,7 @@ class TestCountries:
     countries = main.Countries()
 
     def test_specific_country(self):
-        usa = self.countries.USA
+        usa = self.countries.USA  # type: ignore[attr-defined]
         assert usa == self.countries["USA"]
         assert usa.english_name == "United States of America (the)"
         assert usa.french_name == "États-Unis d'Amérique (les)"
@@ -26,7 +26,7 @@ class TestCurrencies:
     currencies = main.Currencies()
 
     def test_specific_currency(self):
-        jpy = self.currencies.JPY
+        jpy = self.currencies.JPY  # type: ignore[attr-defined]
         assert jpy == self.currencies["JPY"]
         assert jpy.code == "JPY"
         assert jpy.name == "Yen"
