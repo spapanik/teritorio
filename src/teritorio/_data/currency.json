@@ -1345,7 +1345,7 @@
     {
         "code": "TRY",
         "entities": [
-            "TURKEY"
+            "T\u00dcRK\u0130YE"
         ],
         "minor_units": 2,
         "name": "Turkish Lira",

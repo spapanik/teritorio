@@ -16,6 +16,7 @@ Added
 Changed
 ^^^^^^^
 * Change North Macedonia's name
+* Change Turkiye's name
 
 Removed
 ^^^^^^^
