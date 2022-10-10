@@ -9,6 +9,10 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+Added
+^^^^^
+* Add Leone currency
+
 Changed
 ^^^^^^^
 * Change North Macedonia's name
