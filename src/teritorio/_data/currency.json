@@ -445,7 +445,6 @@
     {
         "code": "EUR",
         "entities": [
-            "\u00c5LAND ISLANDS",
             "ANDORRA",
             "AUSTRIA",
             "BELGIUM",
@@ -479,7 +478,8 @@
             "SAN MARINO",
             "SLOVAKIA",
             "SLOVENIA",
-            "SPAIN"
+            "SPAIN",
+            "\u00c5LAND ISLANDS"
         ],
         "minor_units": 2,
         "name": "Euro",
