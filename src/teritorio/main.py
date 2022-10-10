@@ -29,14 +29,16 @@ class DataListIterator:
 class DataList:
     _data_path: Path
     _object_class: Any
+    _key: str
 
     def __init__(self):
         with open(self._data_path) as file:
             data = json.load(file)
 
         self._data = {}
-        for key, value in data.items():
-            obj = self._object_class(**value)
+        for obj in data:
+            key = obj[self._key]
+            obj = self._object_class(**obj)
             self._data[key] = obj
             setattr(self, key, obj)
 
@@ -68,6 +70,7 @@ class Country:
 class Countries(DataList, metaclass=Singleton):
     _data_path = Path(__file__).parent.joinpath("_data/country.json")
     _object_class = Country
+    _key = "alpha_3_code"
 
 
 @dataclass(frozen=True, order=True)
@@ -82,3 +85,4 @@ class Currency:
 class Currencies(DataList, metaclass=Singleton):
     _data_path = Path(__file__).parent.joinpath("_data/currency.json")
     _object_class = Currency
+    _key = "code"
