@@ -283,7 +283,7 @@
         "alpha_2_code": "CC",
         "alpha_3_code": "CCK",
         "english_name": "Cocos (Keeling) Islands (the)",
-        "french_name": "Cocos (les\u00a0\u00celes)/ Keeling (les\u00a0\u00celes)",
+        "french_name": "Cocos (les \u00celes)/ Keeling (les \u00celes)",
         "numeric_code": 166
     },
     {
@@ -395,7 +395,7 @@
         "alpha_2_code": "KY",
         "alpha_3_code": "CYM",
         "english_name": "Cayman Islands (the)",
-        "french_name": "Ca\u00efmans (les\u00a0\u00celes)",
+        "french_name": "Ca\u00efmans (les \u00celes)",
         "numeric_code": 136
     },
     {
@@ -444,7 +444,7 @@
         "alpha_2_code": "DO",
         "alpha_3_code": "DOM",
         "english_name": "Dominican Republic (the)",
-        "french_name": "dominicaine (la\u00a0R\u00e9publique)",
+        "french_name": "dominicaine (la R\u00e9publique)",
         "numeric_code": 214
     },
     {
@@ -654,7 +654,7 @@
         "alpha_2_code": "GF",
         "alpha_3_code": "GUF",
         "english_name": "French Guiana",
-        "french_name": "Guyane fran\u00e7aise (la\u00a0)",
+        "french_name": "Guyane fran\u00e7aise (la )",
         "numeric_code": 254
     },
     {
@@ -738,7 +738,7 @@
         "alpha_2_code": "IO",
         "alpha_3_code": "IOT",
         "english_name": "British Indian Ocean Territory (the)",
-        "french_name": "Indien (le\u00a0Territoire britannique de l'oc\u00e9an)",
+        "french_name": "Indien (le Territoire britannique de l'oc\u00e9an)",
         "numeric_code": 86
     },
     {
@@ -1270,7 +1270,7 @@
         "alpha_2_code": "KP",
         "alpha_3_code": "PRK",
         "english_name": "Korea (the Democratic People's Republic of)",
-        "french_name": "Cor\u00e9e (la\u00a0R\u00e9publique populaire d\u00e9mocratique de)",
+        "french_name": "Cor\u00e9e (la R\u00e9publique populaire d\u00e9mocratique de)",
         "numeric_code": 408
     },
     {
