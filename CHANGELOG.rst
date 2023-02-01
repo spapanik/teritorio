@@ -9,6 +9,10 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+Changed
+^^^^^^^
+* Change Croatia's currency to Euro
+
 `2022.10.10`_
 -------------
 

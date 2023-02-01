@@ -448,6 +448,7 @@
             "ANDORRA",
             "AUSTRIA",
             "BELGIUM",
+            "CROATIA",
             "CYPRUS",
             "ESTONIA",
             "EUROPEAN UNION",
@@ -595,15 +596,6 @@
         "minor_units": 2,
         "name": "Lempira",
         "numeric_code": 340
-    },
-    {
-        "code": "HRK",
-        "entities": [
-            "CROATIA"
-        ],
-        "minor_units": 2,
-        "name": "Kuna",
-        "numeric_code": 191
     },
     {
         "code": "HTG",
