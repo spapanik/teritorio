@@ -50,7 +50,7 @@ source = ["src/"]
 
 [tool.poetry]
 name = "teritorio"
-version = "2022.10.10"
+version = "2023.02.01"
 description = "A library for country and currency ISO codes"
 authors = [
     "Stephanos Kuma <stephanos@kuma.ai>",
