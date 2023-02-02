@@ -1,7 +1,9 @@
+from __future__ import annotations
+
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, List, Optional
+from typing import Any
 
 
 class Singleton(type):
@@ -77,9 +79,9 @@ class Countries(DataList, metaclass=Singleton):
 class Currency:
     code: str
     name: str
-    entities: List[str]
+    entities: list[str]
     numeric_code: int
-    minor_units: Optional[int]
+    minor_units: int | None
 
 
 class Currencies(DataList, metaclass=Singleton):

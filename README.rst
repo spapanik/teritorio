@@ -5,9 +5,6 @@ teritorio: ISO codes for countries and currencies
 .. image:: https://github.com/spapanik/teritorio/actions/workflows/build.yml/badge.svg
   :alt: Build
   :target: https://github.com/spapanik/teritorio/actions/workflows/build.yml
-.. image:: https://img.shields.io/lgtm/alerts/g/spapanik/teritorio.svg
-  :alt: Total alerts
-  :target: https://lgtm.com/projects/g/spapanik/teritorio/alerts/
 .. image:: https://img.shields.io/github/license/spapanik/teritorio
   :alt: License
   :target: https://github.com/spapanik/teritorio/blob/main/LICENSE.txt

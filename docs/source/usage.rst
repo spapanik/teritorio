@@ -97,7 +97,7 @@ Currencies
         The name of the currency
 
     ..  py:attribute:: entities
-        :type: List[str]
+        :type: list[str]
 
         The list of entities (countries) that use this currency
 
@@ -107,7 +107,7 @@ Currencies
         The numeric code of the currency
 
     ..  py:attribute:: minor_units
-        :type: Optional[int]
+        :type: int | None
 
         The number of decimal digits of this currency, if applicable
 
