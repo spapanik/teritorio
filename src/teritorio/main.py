@@ -34,13 +34,13 @@ class DataList:
     _key: str
 
     def __init__(self):
-        with open(self._data_path) as file:
+        with self._data_path.open() as file:
             data = json.load(file)
 
         self._data = {}
-        for obj in data:
-            key = obj[self._key]
-            obj = self._object_class(**obj)
+        for raw_obj in data:
+            key = raw_obj[self._key]
+            obj = self._object_class(**raw_obj)
             self._data[key] = obj
             setattr(self, key, obj)
 
