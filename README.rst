@@ -15,8 +15,14 @@ teritorio: ISO codes for countries and currencies
   :alt: Downloads
   :target: https://pepy.tech/project/teritorio
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-  :alt: Code style
+  :alt: code style: black
   :target: https://github.com/psf/black
+.. image:: https://img.shields.io/badge/build%20automation-yamk-success
+  :alt: build automation: yam
+  :target: https://github.com/spapanik/yamk
+.. image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v1.json
+  :alt: Lint: ruff
+  :target: https://github.com/charliermarsh/ruff
 
 ``teritorio`` two iterable singletons that ``Countries`` and ``Currencies``, that contain all the
 relevant ISO information about countries and currencies, respectively.
