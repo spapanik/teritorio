@@ -2,9 +2,9 @@
 teritorio: ISO codes for countries and currencies
 =================================================
 
-.. image:: https://github.com/spapanik/teritorio/actions/workflows/build.yml/badge.svg
-  :alt: Build
-  :target: https://github.com/spapanik/teritorio/actions/workflows/build.yml
+.. image:: https://github.com/spapanik/teritorio/actions/workflows/tests.yml/badge.svg
+  :alt: Tests
+  :target: https://github.com/spapanik/teritorio/actions/workflows/tests.yml
 .. image:: https://img.shields.io/github/license/spapanik/teritorio
   :alt: License
   :target: https://github.com/spapanik/teritorio/blob/main/LICENSE.txt
