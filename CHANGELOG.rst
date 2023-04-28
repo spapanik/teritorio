@@ -9,6 +9,10 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+Changed
+^^^^^^^
+* Rename the Netherlands to Kingdom of the Netherlands
+
 `2023.02.01`_
 -------------
 
