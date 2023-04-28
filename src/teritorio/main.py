@@ -3,60 +3,62 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Generic, TypeVar, cast
+
+T = TypeVar("T")
 
 
 class Singleton(type):
-    def __init__(cls, name, bases, dict_):
+    def __init__(cls, name: str, bases: tuple[type, ...], dict_: dict[str, Any]):
         super().__init__(name, bases, dict_)
-        cls.instance = None
+        cls.instance: type[Singleton] | None = None
 
-    def __call__(cls, *args, **kwargs):
+    def __call__(cls) -> type[Singleton]:
         if cls.instance is None:
-            cls.instance = super().__call__(*args, **kwargs)
+            cls.instance = cast(type[Singleton], super().__call__())
         return cls.instance
 
 
-class DataListIterator:
-    def __init__(self, data):
+class DataListIterator(Generic[T]):
+    def __init__(self, data: dict[str, T]) -> None:
         self.values = (data[key] for key in sorted(data))
 
-    def __iter__(self):
+    def __iter__(self) -> DataListIterator[T]:
         return self
 
-    def __next__(self):
+    def __next__(self) -> T:
         return next(self.values)
 
 
-class DataList:
+class DataList(Generic[T]):
     _data_path: Path
-    _object_class: Any
+    _object_class: type[T]
     _key: str
 
-    def __init__(self):
+    def __init__(self) -> None:
         with self._data_path.open() as file:
             data = json.load(file)
 
-        self._data = {}
+        self._data: dict[str, T] = {}
         for raw_obj in data:
             key = raw_obj[self._key]
             obj = self._object_class(**raw_obj)
             self._data[key] = obj
             setattr(self, key, obj)
 
-    def __str__(self):
+    def __str__(self) -> str:
         return f"{self.__class__.__name__}()"
 
-    def __repr__(self):
+    def __repr__(self) -> str:
         return f"{self.__class__.__name__}()"
 
-    def __len__(self):
+    def __len__(self) -> int:
         return len(self._data)
 
-    def __getitem__(self, key):
+    def __getitem__(self, key: str) -> T:
         return self._data[key]
 
-    def __iter__(self):
+    def __iter__(self) -> DataListIterator[T]:
         return DataListIterator(self._data)
 
 
@@ -69,7 +71,7 @@ class Country:
     numeric_code: int
 
 
-class Countries(DataList, metaclass=Singleton):
+class Countries(DataList[Country], metaclass=Singleton):
     _data_path = Path(__file__).parent.joinpath("_data/country.json")
     _object_class = Country
     _key = "alpha_3_code"
@@ -84,7 +86,7 @@ class Currency:
     minor_units: int | None
 
 
-class Currencies(DataList, metaclass=Singleton):
+class Currencies(DataList[Currency], metaclass=Singleton):
     _data_path = Path(__file__).parent.joinpath("_data/currency.json")
     _object_class = Currency
     _key = "code"

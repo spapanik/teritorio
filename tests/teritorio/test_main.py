@@ -4,7 +4,7 @@ from teritorio import main
 class TestCountries:
     countries = main.Countries()
 
-    def test_specific_country(self):
+    def test_specific_country(self) -> None:
         usa = self.countries.USA  # type: ignore[attr-defined]
         assert usa == self.countries["USA"]
         assert usa.english_name == "United States of America (the)"
@@ -13,10 +13,10 @@ class TestCountries:
         assert usa.alpha_3_code == "USA"
         assert usa.numeric_code == 840
 
-    def test_number_of_countries(self):
+    def test_number_of_countries(self) -> None:
         assert len(self.countries) == 249
 
-    def test_singleton(self):
+    def test_singleton(self) -> None:
         countries = main.Countries()
 
         assert self.countries == countries
@@ -25,7 +25,7 @@ class TestCountries:
 class TestCurrencies:
     currencies = main.Currencies()
 
-    def test_specific_currency(self):
+    def test_specific_currency(self) -> None:
         jpy = self.currencies.JPY  # type: ignore[attr-defined]
         assert jpy == self.currencies["JPY"]
         assert jpy.code == "JPY"
@@ -34,10 +34,10 @@ class TestCurrencies:
         assert jpy.numeric_code == 392
         assert jpy.minor_units == 0
 
-    def test_number_of_currencies(self):
+    def test_number_of_currencies(self) -> None:
         assert len(self.currencies) == 180
 
-    def test_singleton(self):
+    def test_singleton(self) -> None:
         currencies = main.Currencies()
 
         assert self.currencies == currencies
