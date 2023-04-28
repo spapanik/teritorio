@@ -74,6 +74,9 @@ target-version = "py37"
     "PT011",
     "S101",
 ]
+"dev_scripts/**" = [
+    "INP001",
+]
 
 [tool.ruff.flake8-tidy-imports]
 ban-relative-imports = "all"
