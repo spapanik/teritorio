@@ -11,11 +11,11 @@ T = TypeVar("T")
 class Singleton(type):
     def __init__(cls, name: str, bases: tuple[type, ...], dict_: dict[str, Any]):
         super().__init__(name, bases, dict_)
-        cls.instance: type[Singleton] | None = None
+        cls.instance: Singleton | None = None
 
-    def __call__(cls) -> type[Singleton]:
+    def __call__(cls) -> Singleton:
         if cls.instance is None:
-            cls.instance = cast(type[Singleton], super().__call__())
+            cls.instance = cast(Singleton, super().__call__())
         return cls.instance
 
 
