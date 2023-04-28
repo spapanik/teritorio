@@ -1,5 +1,5 @@
-[
-    {
+{
+    "AED": {
         "code": "AED",
         "entities": [
             "UNITED ARAB EMIRATES (THE)"
@@ -8,7 +8,7 @@
         "name": "UAE Dirham",
         "numeric_code": 784
     },
-    {
+    "AFN": {
         "code": "AFN",
         "entities": [
             "AFGHANISTAN"
@@ -17,7 +17,7 @@
         "name": "Afghani",
         "numeric_code": 971
     },
-    {
+    "ALL": {
         "code": "ALL",
         "entities": [
             "ALBANIA"
@@ -26,7 +26,7 @@
         "name": "Lek",
         "numeric_code": 8
     },
-    {
+    "AMD": {
         "code": "AMD",
         "entities": [
             "ARMENIA"
@@ -35,7 +35,7 @@
         "name": "Armenian Dram",
         "numeric_code": 51
     },
-    {
+    "ANG": {
         "code": "ANG",
         "entities": [
             "CURA\u00c7AO",
@@ -45,7 +45,7 @@
         "name": "Netherlands Antillean Guilder",
         "numeric_code": 532
     },
-    {
+    "AOA": {
         "code": "AOA",
         "entities": [
             "ANGOLA"
@@ -54,7 +54,7 @@
         "name": "Kwanza",
         "numeric_code": 973
     },
-    {
+    "ARS": {
         "code": "ARS",
         "entities": [
             "ARGENTINA"
@@ -63,7 +63,7 @@
         "name": "Argentine Peso",
         "numeric_code": 32
     },
-    {
+    "AUD": {
         "code": "AUD",
         "entities": [
             "AUSTRALIA",
@@ -79,7 +79,7 @@
         "name": "Australian Dollar",
         "numeric_code": 36
     },
-    {
+    "AWG": {
         "code": "AWG",
         "entities": [
             "ARUBA"
@@ -88,7 +88,7 @@
         "name": "Aruban Florin",
         "numeric_code": 533
     },
-    {
+    "AZN": {
         "code": "AZN",
         "entities": [
             "AZERBAIJAN"
@@ -97,7 +97,7 @@
         "name": "Azerbaijan Manat",
         "numeric_code": 944
     },
-    {
+    "BAM": {
         "code": "BAM",
         "entities": [
             "BOSNIA AND HERZEGOVINA"
@@ -106,7 +106,7 @@
         "name": "Convertible Mark",
         "numeric_code": 977
     },
-    {
+    "BBD": {
         "code": "BBD",
         "entities": [
             "BARBADOS"
@@ -115,7 +115,7 @@
         "name": "Barbados Dollar",
         "numeric_code": 52
     },
-    {
+    "BDT": {
         "code": "BDT",
         "entities": [
             "BANGLADESH"
@@ -124,7 +124,7 @@
         "name": "Taka",
         "numeric_code": 50
     },
-    {
+    "BGN": {
         "code": "BGN",
         "entities": [
             "BULGARIA"
@@ -133,7 +133,7 @@
         "name": "Bulgarian Lev",
         "numeric_code": 975
     },
-    {
+    "BHD": {
         "code": "BHD",
         "entities": [
             "BAHRAIN"
@@ -142,7 +142,7 @@
         "name": "Bahraini Dinar",
         "numeric_code": 48
     },
-    {
+    "BIF": {
         "code": "BIF",
         "entities": [
             "BURUNDI"
@@ -151,7 +151,7 @@
         "name": "Burundi Franc",
         "numeric_code": 108
     },
-    {
+    "BMD": {
         "code": "BMD",
         "entities": [
             "BERMUDA"
@@ -160,7 +160,7 @@
         "name": "Bermudian Dollar",
         "numeric_code": 60
     },
-    {
+    "BND": {
         "code": "BND",
         "entities": [
             "BRUNEI DARUSSALAM"
@@ -169,7 +169,7 @@
         "name": "Brunei Dollar",
         "numeric_code": 96
     },
-    {
+    "BOB": {
         "code": "BOB",
         "entities": [
             "BOLIVIA (PLURINATIONAL STATE OF)"
@@ -178,7 +178,7 @@
         "name": "Boliviano",
         "numeric_code": 68
     },
-    {
+    "BOV": {
         "code": "BOV",
         "entities": [
             "BOLIVIA (PLURINATIONAL STATE OF)"
@@ -187,7 +187,7 @@
         "name": "Mvdol",
         "numeric_code": 984
     },
-    {
+    "BRL": {
         "code": "BRL",
         "entities": [
             "BRAZIL"
@@ -196,7 +196,7 @@
         "name": "Brazilian Real",
         "numeric_code": 986
     },
-    {
+    "BSD": {
         "code": "BSD",
         "entities": [
             "BAHAMAS (THE)"
@@ -205,7 +205,7 @@
         "name": "Bahamian Dollar",
         "numeric_code": 44
     },
-    {
+    "BTN": {
         "code": "BTN",
         "entities": [
             "BHUTAN"
@@ -214,7 +214,7 @@
         "name": "Ngultrum",
         "numeric_code": 64
     },
-    {
+    "BWP": {
         "code": "BWP",
         "entities": [
             "BOTSWANA"
@@ -223,7 +223,7 @@
         "name": "Pula",
         "numeric_code": 72
     },
-    {
+    "BYN": {
         "code": "BYN",
         "entities": [
             "BELARUS"
@@ -232,7 +232,7 @@
         "name": "Belarusian Ruble",
         "numeric_code": 933
     },
-    {
+    "BZD": {
         "code": "BZD",
         "entities": [
             "BELIZE"
@@ -241,7 +241,7 @@
         "name": "Belize Dollar",
         "numeric_code": 84
     },
-    {
+    "CAD": {
         "code": "CAD",
         "entities": [
             "CANADA"
@@ -250,7 +250,7 @@
         "name": "Canadian Dollar",
         "numeric_code": 124
     },
-    {
+    "CDF": {
         "code": "CDF",
         "entities": [
             "CONGO (THE DEMOCRATIC REPUBLIC OF THE)"
@@ -259,7 +259,7 @@
         "name": "Congolese Franc",
         "numeric_code": 976
     },
-    {
+    "CHE": {
         "code": "CHE",
         "entities": [
             "SWITZERLAND"
@@ -268,7 +268,7 @@
         "name": "WIR Euro",
         "numeric_code": 947
     },
-    {
+    "CHF": {
         "code": "CHF",
         "entities": [
             "LIECHTENSTEIN",
@@ -278,7 +278,7 @@
         "name": "Swiss Franc",
         "numeric_code": 756
     },
-    {
+    "CHW": {
         "code": "CHW",
         "entities": [
             "SWITZERLAND"
@@ -287,7 +287,7 @@
         "name": "WIR Franc",
         "numeric_code": 948
     },
-    {
+    "CLF": {
         "code": "CLF",
         "entities": [
             "CHILE"
@@ -296,7 +296,7 @@
         "name": "Unidad de Fomento",
         "numeric_code": 990
     },
-    {
+    "CLP": {
         "code": "CLP",
         "entities": [
             "CHILE"
@@ -305,7 +305,7 @@
         "name": "Chilean Peso",
         "numeric_code": 152
     },
-    {
+    "CNY": {
         "code": "CNY",
         "entities": [
             "CHINA"
@@ -314,7 +314,7 @@
         "name": "Yuan Renminbi",
         "numeric_code": 156
     },
-    {
+    "COP": {
         "code": "COP",
         "entities": [
             "COLOMBIA"
@@ -323,7 +323,7 @@
         "name": "Colombian Peso",
         "numeric_code": 170
     },
-    {
+    "COU": {
         "code": "COU",
         "entities": [
             "COLOMBIA"
@@ -332,7 +332,7 @@
         "name": "Unidad de Valor Real",
         "numeric_code": 970
     },
-    {
+    "CRC": {
         "code": "CRC",
         "entities": [
             "COSTA RICA"
@@ -341,7 +341,7 @@
         "name": "Costa Rican Colon",
         "numeric_code": 188
     },
-    {
+    "CUC": {
         "code": "CUC",
         "entities": [
             "CUBA"
@@ -350,7 +350,7 @@
         "name": "Peso Convertible",
         "numeric_code": 931
     },
-    {
+    "CUP": {
         "code": "CUP",
         "entities": [
             "CUBA"
@@ -359,7 +359,7 @@
         "name": "Cuban Peso",
         "numeric_code": 192
     },
-    {
+    "CVE": {
         "code": "CVE",
         "entities": [
             "CABO VERDE"
@@ -368,7 +368,7 @@
         "name": "Cabo Verde Escudo",
         "numeric_code": 132
     },
-    {
+    "CZK": {
         "code": "CZK",
         "entities": [
             "CZECHIA"
@@ -377,7 +377,7 @@
         "name": "Czech Koruna",
         "numeric_code": 203
     },
-    {
+    "DJF": {
         "code": "DJF",
         "entities": [
             "DJIBOUTI"
@@ -386,7 +386,7 @@
         "name": "Djibouti Franc",
         "numeric_code": 262
     },
-    {
+    "DKK": {
         "code": "DKK",
         "entities": [
             "DENMARK",
@@ -397,7 +397,7 @@
         "name": "Danish Krone",
         "numeric_code": 208
     },
-    {
+    "DOP": {
         "code": "DOP",
         "entities": [
             "DOMINICAN REPUBLIC (THE)"
@@ -406,7 +406,7 @@
         "name": "Dominican Peso",
         "numeric_code": 214
     },
-    {
+    "DZD": {
         "code": "DZD",
         "entities": [
             "ALGERIA"
@@ -415,7 +415,7 @@
         "name": "Algerian Dinar",
         "numeric_code": 12
     },
-    {
+    "EGP": {
         "code": "EGP",
         "entities": [
             "EGYPT"
@@ -424,7 +424,7 @@
         "name": "Egyptian Pound",
         "numeric_code": 818
     },
-    {
+    "ERN": {
         "code": "ERN",
         "entities": [
             "ERITREA"
@@ -433,7 +433,7 @@
         "name": "Nakfa",
         "numeric_code": 232
     },
-    {
+    "ETB": {
         "code": "ETB",
         "entities": [
             "ETHIOPIA"
@@ -442,7 +442,7 @@
         "name": "Ethiopian Birr",
         "numeric_code": 230
     },
-    {
+    "EUR": {
         "code": "EUR",
         "entities": [
             "ANDORRA",
@@ -486,7 +486,7 @@
         "name": "Euro",
         "numeric_code": 978
     },
-    {
+    "FJD": {
         "code": "FJD",
         "entities": [
             "FIJI"
@@ -495,7 +495,7 @@
         "name": "Fiji Dollar",
         "numeric_code": 242
     },
-    {
+    "FKP": {
         "code": "FKP",
         "entities": [
             "FALKLAND ISLANDS (THE) [MALVINAS]"
@@ -504,7 +504,7 @@
         "name": "Falkland Islands Pound",
         "numeric_code": 238
     },
-    {
+    "GBP": {
         "code": "GBP",
         "entities": [
             "GUERNSEY",
@@ -516,7 +516,7 @@
         "name": "Pound Sterling",
         "numeric_code": 826
     },
-    {
+    "GEL": {
         "code": "GEL",
         "entities": [
             "GEORGIA"
@@ -525,7 +525,7 @@
         "name": "Lari",
         "numeric_code": 981
     },
-    {
+    "GHS": {
         "code": "GHS",
         "entities": [
             "GHANA"
@@ -534,7 +534,7 @@
         "name": "Ghana Cedi",
         "numeric_code": 936
     },
-    {
+    "GIP": {
         "code": "GIP",
         "entities": [
             "GIBRALTAR"
@@ -543,7 +543,7 @@
         "name": "Gibraltar Pound",
         "numeric_code": 292
     },
-    {
+    "GMD": {
         "code": "GMD",
         "entities": [
             "GAMBIA (THE)"
@@ -552,7 +552,7 @@
         "name": "Dalasi",
         "numeric_code": 270
     },
-    {
+    "GNF": {
         "code": "GNF",
         "entities": [
             "GUINEA"
@@ -561,7 +561,7 @@
         "name": "Guinean Franc",
         "numeric_code": 324
     },
-    {
+    "GTQ": {
         "code": "GTQ",
         "entities": [
             "GUATEMALA"
@@ -570,7 +570,7 @@
         "name": "Quetzal",
         "numeric_code": 320
     },
-    {
+    "GYD": {
         "code": "GYD",
         "entities": [
             "GUYANA"
@@ -579,7 +579,7 @@
         "name": "Guyana Dollar",
         "numeric_code": 328
     },
-    {
+    "HKD": {
         "code": "HKD",
         "entities": [
             "HONG KONG"
@@ -588,7 +588,7 @@
         "name": "Hong Kong Dollar",
         "numeric_code": 344
     },
-    {
+    "HNL": {
         "code": "HNL",
         "entities": [
             "HONDURAS"
@@ -597,7 +597,7 @@
         "name": "Lempira",
         "numeric_code": 340
     },
-    {
+    "HTG": {
         "code": "HTG",
         "entities": [
             "HAITI"
@@ -606,7 +606,7 @@
         "name": "Gourde",
         "numeric_code": 332
     },
-    {
+    "HUF": {
         "code": "HUF",
         "entities": [
             "HUNGARY"
@@ -615,7 +615,7 @@
         "name": "Forint",
         "numeric_code": 348
     },
-    {
+    "IDR": {
         "code": "IDR",
         "entities": [
             "INDONESIA"
@@ -624,7 +624,7 @@
         "name": "Rupiah",
         "numeric_code": 360
     },
-    {
+    "ILS": {
         "code": "ILS",
         "entities": [
             "ISRAEL"
@@ -633,7 +633,7 @@
         "name": "New Israeli Sheqel",
         "numeric_code": 376
     },
-    {
+    "INR": {
         "code": "INR",
         "entities": [
             "BHUTAN",
@@ -643,7 +643,7 @@
         "name": "Indian Rupee",
         "numeric_code": 356
     },
-    {
+    "IQD": {
         "code": "IQD",
         "entities": [
             "IRAQ"
@@ -652,7 +652,7 @@
         "name": "Iraqi Dinar",
         "numeric_code": 368
     },
-    {
+    "IRR": {
         "code": "IRR",
         "entities": [
             "IRAN (ISLAMIC REPUBLIC OF)"
@@ -661,7 +661,7 @@
         "name": "Iranian Rial",
         "numeric_code": 364
     },
-    {
+    "ISK": {
         "code": "ISK",
         "entities": [
             "ICELAND"
@@ -670,7 +670,7 @@
         "name": "Iceland Krona",
         "numeric_code": 352
     },
-    {
+    "JMD": {
         "code": "JMD",
         "entities": [
             "JAMAICA"
@@ -679,7 +679,7 @@
         "name": "Jamaican Dollar",
         "numeric_code": 388
     },
-    {
+    "JOD": {
         "code": "JOD",
         "entities": [
             "JORDAN"
@@ -688,7 +688,7 @@
         "name": "Jordanian Dinar",
         "numeric_code": 400
     },
-    {
+    "JPY": {
         "code": "JPY",
         "entities": [
             "JAPAN"
@@ -697,7 +697,7 @@
         "name": "Yen",
         "numeric_code": 392
     },
-    {
+    "KES": {
         "code": "KES",
         "entities": [
             "KENYA"
@@ -706,7 +706,7 @@
         "name": "Kenyan Shilling",
         "numeric_code": 404
     },
-    {
+    "KGS": {
         "code": "KGS",
         "entities": [
             "KYRGYZSTAN"
@@ -715,7 +715,7 @@
         "name": "Som",
         "numeric_code": 417
     },
-    {
+    "KHR": {
         "code": "KHR",
         "entities": [
             "CAMBODIA"
@@ -724,7 +724,7 @@
         "name": "Riel",
         "numeric_code": 116
     },
-    {
+    "KMF": {
         "code": "KMF",
         "entities": [
             "COMOROS (THE)"
@@ -733,7 +733,7 @@
         "name": "Comorian Franc",
         "numeric_code": 174
     },
-    {
+    "KPW": {
         "code": "KPW",
         "entities": [
             "KOREA (THE DEMOCRATIC PEOPLE\u2019S REPUBLIC OF)"
@@ -742,7 +742,7 @@
         "name": "North Korean Won",
         "numeric_code": 408
     },
-    {
+    "KRW": {
         "code": "KRW",
         "entities": [
             "KOREA (THE REPUBLIC OF)"
@@ -751,7 +751,7 @@
         "name": "Won",
         "numeric_code": 410
     },
-    {
+    "KWD": {
         "code": "KWD",
         "entities": [
             "KUWAIT"
@@ -760,7 +760,7 @@
         "name": "Kuwaiti Dinar",
         "numeric_code": 414
     },
-    {
+    "KYD": {
         "code": "KYD",
         "entities": [
             "CAYMAN ISLANDS (THE)"
@@ -769,7 +769,7 @@
         "name": "Cayman Islands Dollar",
         "numeric_code": 136
     },
-    {
+    "KZT": {
         "code": "KZT",
         "entities": [
             "KAZAKHSTAN"
@@ -778,7 +778,7 @@
         "name": "Tenge",
         "numeric_code": 398
     },
-    {
+    "LAK": {
         "code": "LAK",
         "entities": [
             "LAO PEOPLE\u2019S DEMOCRATIC REPUBLIC (THE)"
@@ -787,7 +787,7 @@
         "name": "Lao Kip",
         "numeric_code": 418
     },
-    {
+    "LBP": {
         "code": "LBP",
         "entities": [
             "LEBANON"
@@ -796,7 +796,7 @@
         "name": "Lebanese Pound",
         "numeric_code": 422
     },
-    {
+    "LKR": {
         "code": "LKR",
         "entities": [
             "SRI LANKA"
@@ -805,7 +805,7 @@
         "name": "Sri Lanka Rupee",
         "numeric_code": 144
     },
-    {
+    "LRD": {
         "code": "LRD",
         "entities": [
             "LIBERIA"
@@ -814,7 +814,7 @@
         "name": "Liberian Dollar",
         "numeric_code": 430
     },
-    {
+    "LSL": {
         "code": "LSL",
         "entities": [
             "LESOTHO"
@@ -823,7 +823,7 @@
         "name": "Loti",
         "numeric_code": 426
     },
-    {
+    "LYD": {
         "code": "LYD",
         "entities": [
             "LIBYA"
@@ -832,7 +832,7 @@
         "name": "Libyan Dinar",
         "numeric_code": 434
     },
-    {
+    "MAD": {
         "code": "MAD",
         "entities": [
             "MOROCCO",
@@ -842,7 +842,7 @@
         "name": "Moroccan Dirham",
         "numeric_code": 504
     },
-    {
+    "MDL": {
         "code": "MDL",
         "entities": [
             "MOLDOVA (THE REPUBLIC OF)"
@@ -851,7 +851,7 @@
         "name": "Moldovan Leu",
         "numeric_code": 498
     },
-    {
+    "MGA": {
         "code": "MGA",
         "entities": [
             "MADAGASCAR"
@@ -860,7 +860,7 @@
         "name": "Malagasy Ariary",
         "numeric_code": 969
     },
-    {
+    "MKD": {
         "code": "MKD",
         "entities": [
             "NORTH MACEDONIA"
@@ -869,7 +869,7 @@
         "name": "Denar",
         "numeric_code": 807
     },
-    {
+    "MMK": {
         "code": "MMK",
         "entities": [
             "MYANMAR"
@@ -878,7 +878,7 @@
         "name": "Kyat",
         "numeric_code": 104
     },
-    {
+    "MNT": {
         "code": "MNT",
         "entities": [
             "MONGOLIA"
@@ -887,7 +887,7 @@
         "name": "Tugrik",
         "numeric_code": 496
     },
-    {
+    "MOP": {
         "code": "MOP",
         "entities": [
             "MACAO"
@@ -896,7 +896,7 @@
         "name": "Pataca",
         "numeric_code": 446
     },
-    {
+    "MRU": {
         "code": "MRU",
         "entities": [
             "MAURITANIA"
@@ -905,7 +905,7 @@
         "name": "Ouguiya",
         "numeric_code": 929
     },
-    {
+    "MUR": {
         "code": "MUR",
         "entities": [
             "MAURITIUS"
@@ -914,7 +914,7 @@
         "name": "Mauritius Rupee",
         "numeric_code": 480
     },
-    {
+    "MVR": {
         "code": "MVR",
         "entities": [
             "MALDIVES"
@@ -923,7 +923,7 @@
         "name": "Rufiyaa",
         "numeric_code": 462
     },
-    {
+    "MWK": {
         "code": "MWK",
         "entities": [
             "MALAWI"
@@ -932,7 +932,7 @@
         "name": "Malawi Kwacha",
         "numeric_code": 454
     },
-    {
+    "MXN": {
         "code": "MXN",
         "entities": [
             "MEXICO"
@@ -941,7 +941,7 @@
         "name": "Mexican Peso",
         "numeric_code": 484
     },
-    {
+    "MXV": {
         "code": "MXV",
         "entities": [
             "MEXICO"
@@ -950,7 +950,7 @@
         "name": "Mexican Unidad de Inversion (UDI)",
         "numeric_code": 979
     },
-    {
+    "MYR": {
         "code": "MYR",
         "entities": [
             "MALAYSIA"
@@ -959,7 +959,7 @@
         "name": "Malaysian Ringgit",
         "numeric_code": 458
     },
-    {
+    "MZN": {
         "code": "MZN",
         "entities": [
             "MOZAMBIQUE"
@@ -968,7 +968,7 @@
         "name": "Mozambique Metical",
         "numeric_code": 943
     },
-    {
+    "NAD": {
         "code": "NAD",
         "entities": [
             "NAMIBIA"
@@ -977,7 +977,7 @@
         "name": "Namibia Dollar",
         "numeric_code": 516
     },
-    {
+    "NGN": {
         "code": "NGN",
         "entities": [
             "NIGERIA"
@@ -986,7 +986,7 @@
         "name": "Naira",
         "numeric_code": 566
     },
-    {
+    "NIO": {
         "code": "NIO",
         "entities": [
             "NICARAGUA"
@@ -995,7 +995,7 @@
         "name": "Cordoba Oro",
         "numeric_code": 558
     },
-    {
+    "NOK": {
         "code": "NOK",
         "entities": [
             "BOUVET ISLAND",
@@ -1006,7 +1006,7 @@
         "name": "Norwegian Krone",
         "numeric_code": 578
     },
-    {
+    "NPR": {
         "code": "NPR",
         "entities": [
             "NEPAL"
@@ -1015,7 +1015,7 @@
         "name": "Nepalese Rupee",
         "numeric_code": 524
     },
-    {
+    "NZD": {
         "code": "NZD",
         "entities": [
             "COOK ISLANDS (THE)",
@@ -1028,7 +1028,7 @@
         "name": "New Zealand Dollar",
         "numeric_code": 554
     },
-    {
+    "OMR": {
         "code": "OMR",
         "entities": [
             "OMAN"
@@ -1037,7 +1037,7 @@
         "name": "Rial Omani",
         "numeric_code": 512
     },
-    {
+    "PAB": {
         "code": "PAB",
         "entities": [
             "PANAMA"
@@ -1046,7 +1046,7 @@
         "name": "Balboa",
         "numeric_code": 590
     },
-    {
+    "PEN": {
         "code": "PEN",
         "entities": [
             "PERU"
@@ -1055,7 +1055,7 @@
         "name": "Sol",
         "numeric_code": 604
     },
-    {
+    "PGK": {
         "code": "PGK",
         "entities": [
             "PAPUA NEW GUINEA"
@@ -1064,7 +1064,7 @@
         "name": "Kina",
         "numeric_code": 598
     },
-    {
+    "PHP": {
         "code": "PHP",
         "entities": [
             "PHILIPPINES (THE)"
@@ -1073,7 +1073,7 @@
         "name": "Philippine Peso",
         "numeric_code": 608
     },
-    {
+    "PKR": {
         "code": "PKR",
         "entities": [
             "PAKISTAN"
@@ -1082,7 +1082,7 @@
         "name": "Pakistan Rupee",
         "numeric_code": 586
     },
-    {
+    "PLN": {
         "code": "PLN",
         "entities": [
             "POLAND"
@@ -1091,7 +1091,7 @@
         "name": "Zloty",
         "numeric_code": 985
     },
-    {
+    "PYG": {
         "code": "PYG",
         "entities": [
             "PARAGUAY"
@@ -1100,7 +1100,7 @@
         "name": "Guarani",
         "numeric_code": 600
     },
-    {
+    "QAR": {
         "code": "QAR",
         "entities": [
             "QATAR"
@@ -1109,7 +1109,7 @@
         "name": "Qatari Rial",
         "numeric_code": 634
     },
-    {
+    "RON": {
         "code": "RON",
         "entities": [
             "ROMANIA"
@@ -1118,7 +1118,7 @@
         "name": "Romanian Leu",
         "numeric_code": 946
     },
-    {
+    "RSD": {
         "code": "RSD",
         "entities": [
             "SERBIA"
@@ -1127,7 +1127,7 @@
         "name": "Serbian Dinar",
         "numeric_code": 941
     },
-    {
+    "RUB": {
         "code": "RUB",
         "entities": [
             "RUSSIAN FEDERATION (THE)"
@@ -1136,7 +1136,7 @@
         "name": "Russian Ruble",
         "numeric_code": 643
     },
-    {
+    "RWF": {
         "code": "RWF",
         "entities": [
             "RWANDA"
@@ -1145,7 +1145,7 @@
         "name": "Rwanda Franc",
         "numeric_code": 646
     },
-    {
+    "SAR": {
         "code": "SAR",
         "entities": [
             "SAUDI ARABIA"
@@ -1154,7 +1154,7 @@
         "name": "Saudi Riyal",
         "numeric_code": 682
     },
-    {
+    "SBD": {
         "code": "SBD",
         "entities": [
             "SOLOMON ISLANDS"
@@ -1163,7 +1163,7 @@
         "name": "Solomon Islands Dollar",
         "numeric_code": 90
     },
-    {
+    "SCR": {
         "code": "SCR",
         "entities": [
             "SEYCHELLES"
@@ -1172,7 +1172,7 @@
         "name": "Seychelles Rupee",
         "numeric_code": 690
     },
-    {
+    "SDG": {
         "code": "SDG",
         "entities": [
             "SUDAN (THE)"
@@ -1181,7 +1181,7 @@
         "name": "Sudanese Pound",
         "numeric_code": 938
     },
-    {
+    "SEK": {
         "code": "SEK",
         "entities": [
             "SWEDEN"
@@ -1190,7 +1190,7 @@
         "name": "Swedish Krona",
         "numeric_code": 752
     },
-    {
+    "SGD": {
         "code": "SGD",
         "entities": [
             "SINGAPORE"
@@ -1199,7 +1199,7 @@
         "name": "Singapore Dollar",
         "numeric_code": 702
     },
-    {
+    "SHP": {
         "code": "SHP",
         "entities": [
             "SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA"
@@ -1208,7 +1208,7 @@
         "name": "Saint Helena Pound",
         "numeric_code": 654
     },
-    {
+    "SLE": {
         "code": "SLE",
         "entities": [
             "SIERRA LEONE"
@@ -1217,7 +1217,7 @@
         "name": "Leone",
         "numeric_code": 925
     },
-    {
+    "SLL": {
         "code": "SLL",
         "entities": [
             "SIERRA LEONE"
@@ -1226,7 +1226,7 @@
         "name": "Leone",
         "numeric_code": 694
     },
-    {
+    "SOS": {
         "code": "SOS",
         "entities": [
             "SOMALIA"
@@ -1235,7 +1235,7 @@
         "name": "Somali Shilling",
         "numeric_code": 706
     },
-    {
+    "SRD": {
         "code": "SRD",
         "entities": [
             "SURINAME"
@@ -1244,7 +1244,7 @@
         "name": "Surinam Dollar",
         "numeric_code": 968
     },
-    {
+    "SSP": {
         "code": "SSP",
         "entities": [
             "SOUTH SUDAN"
@@ -1253,7 +1253,7 @@
         "name": "South Sudanese Pound",
         "numeric_code": 728
     },
-    {
+    "STN": {
         "code": "STN",
         "entities": [
             "SAO TOME AND PRINCIPE"
@@ -1262,7 +1262,7 @@
         "name": "Dobra",
         "numeric_code": 930
     },
-    {
+    "SVC": {
         "code": "SVC",
         "entities": [
             "EL SALVADOR"
@@ -1271,7 +1271,7 @@
         "name": "El Salvador Colon",
         "numeric_code": 222
     },
-    {
+    "SYP": {
         "code": "SYP",
         "entities": [
             "SYRIAN ARAB REPUBLIC"
@@ -1280,7 +1280,7 @@
         "name": "Syrian Pound",
         "numeric_code": 760
     },
-    {
+    "SZL": {
         "code": "SZL",
         "entities": [
             "ESWATINI"
@@ -1289,7 +1289,7 @@
         "name": "Lilangeni",
         "numeric_code": 748
     },
-    {
+    "THB": {
         "code": "THB",
         "entities": [
             "THAILAND"
@@ -1298,7 +1298,7 @@
         "name": "Baht",
         "numeric_code": 764
     },
-    {
+    "TJS": {
         "code": "TJS",
         "entities": [
             "TAJIKISTAN"
@@ -1307,7 +1307,7 @@
         "name": "Somoni",
         "numeric_code": 972
     },
-    {
+    "TMT": {
         "code": "TMT",
         "entities": [
             "TURKMENISTAN"
@@ -1316,7 +1316,7 @@
         "name": "Turkmenistan New Manat",
         "numeric_code": 934
     },
-    {
+    "TND": {
         "code": "TND",
         "entities": [
             "TUNISIA"
@@ -1325,7 +1325,7 @@
         "name": "Tunisian Dinar",
         "numeric_code": 788
     },
-    {
+    "TOP": {
         "code": "TOP",
         "entities": [
             "TONGA"
@@ -1334,7 +1334,7 @@
         "name": "Pa\u2019anga",
         "numeric_code": 776
     },
-    {
+    "TRY": {
         "code": "TRY",
         "entities": [
             "T\u00dcRK\u0130YE"
@@ -1343,7 +1343,7 @@
         "name": "Turkish Lira",
         "numeric_code": 949
     },
-    {
+    "TTD": {
         "code": "TTD",
         "entities": [
             "TRINIDAD AND TOBAGO"
@@ -1352,7 +1352,7 @@
         "name": "Trinidad and Tobago Dollar",
         "numeric_code": 780
     },
-    {
+    "TWD": {
         "code": "TWD",
         "entities": [
             "TAIWAN (PROVINCE OF CHINA)"
@@ -1361,7 +1361,7 @@
         "name": "New Taiwan Dollar",
         "numeric_code": 901
     },
-    {
+    "TZS": {
         "code": "TZS",
         "entities": [
             "TANZANIA, UNITED REPUBLIC OF"
@@ -1370,7 +1370,7 @@
         "name": "Tanzanian Shilling",
         "numeric_code": 834
     },
-    {
+    "UAH": {
         "code": "UAH",
         "entities": [
             "UKRAINE"
@@ -1379,7 +1379,7 @@
         "name": "Hryvnia",
         "numeric_code": 980
     },
-    {
+    "UGX": {
         "code": "UGX",
         "entities": [
             "UGANDA"
@@ -1388,7 +1388,7 @@
         "name": "Uganda Shilling",
         "numeric_code": 800
     },
-    {
+    "USD": {
         "code": "USD",
         "entities": [
             "AMERICAN SAMOA",
@@ -1415,7 +1415,7 @@
         "name": "US Dollar",
         "numeric_code": 840
     },
-    {
+    "USN": {
         "code": "USN",
         "entities": [
             "UNITED STATES OF AMERICA (THE)"
@@ -1424,7 +1424,7 @@
         "name": "US Dollar (Next day)",
         "numeric_code": 997
     },
-    {
+    "UYI": {
         "code": "UYI",
         "entities": [
             "URUGUAY"
@@ -1433,7 +1433,7 @@
         "name": "Uruguay Peso en Unidades Indexadas (UI)",
         "numeric_code": 940
     },
-    {
+    "UYU": {
         "code": "UYU",
         "entities": [
             "URUGUAY"
@@ -1442,7 +1442,7 @@
         "name": "Peso Uruguayo",
         "numeric_code": 858
     },
-    {
+    "UYW": {
         "code": "UYW",
         "entities": [
             "URUGUAY"
@@ -1451,7 +1451,7 @@
         "name": "Unidad Previsional",
         "numeric_code": 927
     },
-    {
+    "UZS": {
         "code": "UZS",
         "entities": [
             "UZBEKISTAN"
@@ -1460,7 +1460,7 @@
         "name": "Uzbekistan Sum",
         "numeric_code": 860
     },
-    {
+    "VED": {
         "code": "VED",
         "entities": [
             "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
@@ -1469,7 +1469,7 @@
         "name": "Bol\u00edvar Soberano",
         "numeric_code": 926
     },
-    {
+    "VES": {
         "code": "VES",
         "entities": [
             "VENEZUELA (BOLIVARIAN REPUBLIC OF)"
@@ -1478,7 +1478,7 @@
         "name": "Bol\u00edvar Soberano",
         "numeric_code": 928
     },
-    {
+    "VND": {
         "code": "VND",
         "entities": [
             "VIET NAM"
@@ -1487,7 +1487,7 @@
         "name": "Dong",
         "numeric_code": 704
     },
-    {
+    "VUV": {
         "code": "VUV",
         "entities": [
             "VANUATU"
@@ -1496,7 +1496,7 @@
         "name": "Vatu",
         "numeric_code": 548
     },
-    {
+    "WST": {
         "code": "WST",
         "entities": [
             "SAMOA"
@@ -1505,7 +1505,7 @@
         "name": "Tala",
         "numeric_code": 882
     },
-    {
+    "XAF": {
         "code": "XAF",
         "entities": [
             "CAMEROON",
@@ -1519,7 +1519,7 @@
         "name": "CFA Franc BEAC",
         "numeric_code": 950
     },
-    {
+    "XAG": {
         "code": "XAG",
         "entities": [
             "ZZ11_Silver"
@@ -1528,7 +1528,7 @@
         "name": "Silver",
         "numeric_code": 961
     },
-    {
+    "XAU": {
         "code": "XAU",
         "entities": [
             "ZZ08_Gold"
@@ -1537,7 +1537,7 @@
         "name": "Gold",
         "numeric_code": 959
     },
-    {
+    "XBA": {
         "code": "XBA",
         "entities": [
             "ZZ01_Bond Markets Unit European_EURCO"
@@ -1546,7 +1546,7 @@
         "name": "Bond Markets Unit European Composite Unit (EURCO)",
         "numeric_code": 955
     },
-    {
+    "XBB": {
         "code": "XBB",
         "entities": [
             "ZZ02_Bond Markets Unit European_EMU-6"
@@ -1555,7 +1555,7 @@
         "name": "Bond Markets Unit European Monetary Unit (E.M.U.-6)",
         "numeric_code": 956
     },
-    {
+    "XBC": {
         "code": "XBC",
         "entities": [
             "ZZ03_Bond Markets Unit European_EUA-9"
@@ -1564,7 +1564,7 @@
         "name": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)",
         "numeric_code": 957
     },
-    {
+    "XBD": {
         "code": "XBD",
         "entities": [
             "ZZ04_Bond Markets Unit European_EUA-17"
@@ -1573,7 +1573,7 @@
         "name": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)",
         "numeric_code": 958
     },
-    {
+    "XCD": {
         "code": "XCD",
         "entities": [
             "ANGUILLA",
@@ -1589,7 +1589,7 @@
         "name": "East Caribbean Dollar",
         "numeric_code": 951
     },
-    {
+    "XDR": {
         "code": "XDR",
         "entities": [
             "INTERNATIONAL MONETARY FUND (IMF)"
@@ -1598,7 +1598,7 @@
         "name": "SDR (Special Drawing Right)",
         "numeric_code": 960
     },
-    {
+    "XOF": {
         "code": "XOF",
         "entities": [
             "BENIN",
@@ -1614,7 +1614,7 @@
         "name": "CFA Franc BCEAO",
         "numeric_code": 952
     },
-    {
+    "XPD": {
         "code": "XPD",
         "entities": [
             "ZZ09_Palladium"
@@ -1623,7 +1623,7 @@
         "name": "Palladium",
         "numeric_code": 964
     },
-    {
+    "XPF": {
         "code": "XPF",
         "entities": [
             "FRENCH POLYNESIA",
@@ -1634,7 +1634,7 @@
         "name": "CFP Franc",
         "numeric_code": 953
     },
-    {
+    "XPT": {
         "code": "XPT",
         "entities": [
             "ZZ10_Platinum"
@@ -1643,7 +1643,7 @@
         "name": "Platinum",
         "numeric_code": 962
     },
-    {
+    "XSU": {
         "code": "XSU",
         "entities": [
             "SISTEMA UNITARIO DE COMPENSACION REGIONAL DE PAGOS \"SUCRE\""
@@ -1652,7 +1652,7 @@
         "name": "Sucre",
         "numeric_code": 994
     },
-    {
+    "XTS": {
         "code": "XTS",
         "entities": [
             "ZZ06_Testing_Code"
@@ -1661,7 +1661,7 @@
         "name": "Codes specifically reserved for testing purposes",
         "numeric_code": 963
     },
-    {
+    "XUA": {
         "code": "XUA",
         "entities": [
             "MEMBER COUNTRIES OF THE AFRICAN DEVELOPMENT BANK GROUP"
@@ -1670,7 +1670,7 @@
         "name": "ADB Unit of Account",
         "numeric_code": 965
     },
-    {
+    "XXX": {
         "code": "XXX",
         "entities": [
             "ZZ07_No_Currency"
@@ -1679,7 +1679,7 @@
         "name": "The codes assigned for transactions where no currency is involved",
         "numeric_code": 999
     },
-    {
+    "YER": {
         "code": "YER",
         "entities": [
             "YEMEN"
@@ -1688,7 +1688,7 @@
         "name": "Yemeni Rial",
         "numeric_code": 886
     },
-    {
+    "ZAR": {
         "code": "ZAR",
         "entities": [
             "LESOTHO",
@@ -1699,7 +1699,7 @@
         "name": "Rand",
         "numeric_code": 710
     },
-    {
+    "ZMW": {
         "code": "ZMW",
         "entities": [
             "ZAMBIA"
@@ -1708,7 +1708,7 @@
         "name": "Zambian Kwacha",
         "numeric_code": 967
     },
-    {
+    "ZWL": {
         "code": "ZWL",
         "entities": [
             "ZIMBABWE"
@@ -1717,4 +1717,4 @@
         "name": "Zimbabwe Dollar",
         "numeric_code": 932
     }
-]
+}
