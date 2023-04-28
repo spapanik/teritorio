@@ -127,8 +127,10 @@ classifiers = [
 python = "^3.7"
 
 [tool.poetry.group.dev.dependencies]
+beautifulsoup4 = "^4.12"
 ipdb = {version = "^0.13", python = "^3.9"}
 ipython = {version = "^8.12", python = "^3.9"}
+lxml = "^4.9"
 pipdeptree = "^2.7"
 
 [tool.poetry.group.lint.dependencies]
