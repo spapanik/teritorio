@@ -3,19 +3,23 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Generic, TypeVar, cast
+from typing import Any, Generic, TypeVar
 
 T = TypeVar("T")
 
 
 class Singleton(type):
-    def __init__(cls, name: str, bases: tuple[type, ...], dict_: dict[str, Any]):
-        super().__init__(name, bases, dict_)
-        cls.instance: Singleton | None = None
+    instance: type[Singleton] | None
 
-    def __call__(cls) -> Singleton:
+    def __init__(
+        cls, name: str, bases: tuple[type[Singleton], ...], dict_: dict[str, Any]
+    ):
+        super().__init__(name, bases, dict_)
+        cls.instance = None
+
+    def __call__(cls) -> type[Singleton]:
         if cls.instance is None:
-            cls.instance = cast(Singleton, super().__call__())
+            cls.instance = super().__call__()
         return cls.instance
 
 
