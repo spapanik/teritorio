@@ -9,6 +9,10 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+Changed
+^^^^^^^
+* Change entities in currency from list to tuple
+
 `2023.04.28`_
 -------------
 

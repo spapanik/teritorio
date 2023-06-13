@@ -40,7 +40,7 @@ class DataList(Generic[T]):
 
     def __init__(self) -> None:
         with self._data_path.open() as file:
-            data = json.load(file)
+            data = json.load(file, object_hook=_list_to_tuple)
 
         self._data: dict[str, T] = {}
         for key, raw_obj in data.items():
@@ -82,7 +82,7 @@ class Countries(DataList[Country], metaclass=Singleton):
 class Currency:
     code: str
     name: str
-    entities: list[str]
+    entities: tuple[str, ...]
     numeric_code: int
     minor_units: int | None
 
@@ -90,3 +90,11 @@ class Currency:
 class Currencies(DataList[Currency], metaclass=Singleton):
     _data_path = Path(__file__).parent.joinpath("_data/currency.json")
     _object_class = Currency
+
+
+def _list_to_tuple(obj: Any) -> Any:
+    if isinstance(obj, list):
+        return tuple(obj)
+    if isinstance(obj, dict):
+        return {key: _list_to_tuple(value) for key, value in obj.items()}
+    return obj

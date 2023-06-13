@@ -1,4 +1,12 @@
+from typing import TypeVar, Union
+
+import pytest
+
 from teritorio import main
+
+TERITORIO_CLASS = TypeVar(
+    "TERITORIO_CLASS", bound=Union[main.Countries, main.Currencies]
+)
 
 
 class TestCountries:
@@ -30,7 +38,7 @@ class TestCurrencies:
         assert jpy == self.currencies["JPY"]
         assert jpy.code == "JPY"
         assert jpy.name == "Yen"
-        assert jpy.entities == ["JAPAN"]
+        assert jpy.entities == ("JAPAN",)
         assert jpy.numeric_code == 392
         assert jpy.minor_units == 0
 
@@ -41,3 +49,9 @@ class TestCurrencies:
         currencies = main.Currencies()
 
         assert self.currencies == currencies
+
+
+@pytest.mark.parametrize("class_", [main.Currencies, main.Countries])
+def test_hashable(class_: TERITORIO_CLASS) -> None:
+    obj = next(iter(class_()))  # type: ignore[operator]
+    assert len({obj: "test"}) == 1
