@@ -97,7 +97,7 @@ Currencies
         The name of the currency
 
     ..  py:attribute:: entities
-        :type: list[str]
+        :type: tuple[str, ...]
 
         The list of entities (countries) that use this currency
 
@@ -126,6 +126,6 @@ Example usage of the ``Currencies`` class.
     currencies = Currencies()
 
     # access the currency as an attribute
-    print(currencies.GBP)  # Currency(code='GBP', name='Pound Sterling', entities=['GUERNSEY', 'ISLE OF MAN', 'JERSEY', 'UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)'], numeric_code=826, minor_units=2)
+    print(currencies.GBP)  # Currency(code='GBP', name='Pound Sterling', entities=('GUERNSEY', 'ISLE OF MAN', 'JERSEY', 'UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)'), numeric_code=826, minor_units=2)
     # access the currency with square brackets
-    print(currencies["GBP"])  # Currency(code='GBP', name='Pound Sterling', entities=['GUERNSEY', 'ISLE OF MAN', 'JERSEY', 'UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)'], numeric_code=826, minor_units=2)
+    print(currencies["GBP"])  # Currency(code='GBP', name='Pound Sterling', entities=('GUERNSEY', 'ISLE OF MAN', 'JERSEY', 'UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)'), numeric_code=826, minor_units=2)
