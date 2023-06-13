@@ -85,8 +85,9 @@ Added
 * Added country ISO codes (ISO-3166)
 
 
-.. _`unreleased`: https://github.com/spapanik/teritorio/compare/v2022.04.28...master
-.. _`2023.04.28`: https://github.com/spapanik/teritorio/compare/v2023.02.01...v2022.04.28
+.. _`unreleased`: https://github.com/spapanik/teritorio/compare/v2023.06.13...master
+.. _`2023.06.13`: https://github.com/spapanik/teritorio/compare/v2023.04.28...v2023.06.13
+.. _`2023.04.28`: https://github.com/spapanik/teritorio/compare/v2023.02.01...v2023.04.28
 .. _`2023.02.01`: https://github.com/spapanik/teritorio/compare/v2023.10.10...v2023.02.01
 .. _`2022.10.10`: https://github.com/spapanik/teritorio/compare/v2022.01.05...v2022.10.10
 .. _`2022.01.05`: https://github.com/spapanik/teritorio/compare/v2021.10.22...v2022.01.05
