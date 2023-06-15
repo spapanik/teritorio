@@ -14,6 +14,14 @@ TERITORIO_CLASS = TypeVar(
 class TestCountries:
     countries = main.Countries()
 
+    def test_str(self) -> None:
+        expected_str = "Countries()"
+        assert expected_str == str(self.countries)
+        assert expected_str == repr(self.countries)
+
+    def test_iter(self) -> None:
+        assert list(self.countries) == list(iter(self.countries))
+
     def test_specific_country(self) -> None:
         usa = self.countries.USA
         assert usa == self.countries["USA"]
@@ -24,7 +32,9 @@ class TestCountries:
         assert usa.numeric_code == 840
 
     def test_number_of_countries(self) -> None:
-        assert len(self.countries) == 249
+        expected_number = 249
+        assert expected_number == len(self.countries)
+        assert expected_number == len(list(self.countries))
 
     def test_singleton(self) -> None:
         countries = main.Countries()
@@ -34,6 +44,14 @@ class TestCountries:
 
 class TestCurrencies:
     currencies = main.Currencies()
+
+    def test_str(self) -> None:
+        expected_str = "Currencies()"
+        assert expected_str == str(self.currencies)
+        assert expected_str == repr(self.currencies)
+
+    def test_iter(self) -> None:
+        assert list(self.currencies) == list(iter(self.currencies))
 
     def test_specific_currency(self) -> None:
         jpy = self.currencies.JPY
@@ -45,7 +63,9 @@ class TestCurrencies:
         assert jpy.minor_units == 0
 
     def test_number_of_currencies(self) -> None:
-        assert len(self.currencies) == 180
+        expected_number = 180
+        assert expected_number == len(self.currencies)
+        assert expected_number == len(list(self.currencies))
 
     def test_singleton(self) -> None:
         currencies = main.Currencies()
