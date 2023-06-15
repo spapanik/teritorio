@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from typing import TypeVar, Union
 
 import pytest
@@ -5,7 +7,7 @@ import pytest
 from teritorio import main
 
 TERITORIO_CLASS = TypeVar(
-    "TERITORIO_CLASS", bound=Union[main.Countries, main.Currencies]
+    "TERITORIO_CLASS", bound=Union[type[main.Countries], type[main.Currencies]]
 )
 
 
@@ -53,5 +55,5 @@ class TestCurrencies:
 
 @pytest.mark.parametrize("class_", [main.Currencies, main.Countries])
 def test_hashable(class_: TERITORIO_CLASS) -> None:
-    obj = next(iter(class_()))  # type: ignore[operator]
+    obj = next(iter(class_()))
     assert len({obj: "test"}) == 1
