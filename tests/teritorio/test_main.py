@@ -1,13 +1,13 @@
 from __future__ import annotations
 
-from typing import TypeVar, Union
+from typing import Type, TypeVar, Union
 
 import pytest
 
 from teritorio import main
 
 TERITORIO_CLASS = TypeVar(
-    "TERITORIO_CLASS", bound=Union[type[main.Countries], type[main.Currencies]]
+    "TERITORIO_CLASS", bound=Union[Type[main.Countries], Type[main.Currencies]]
 )
 
 
