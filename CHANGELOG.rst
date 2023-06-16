@@ -9,6 +9,13 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+Added
+^^^^^
+* Add a .pyi file to contain type hints for countries and currencies
+
+`2023.06.13`_
+-------------
+
 Changed
 ^^^^^^^
 * Change entities in currency from list to tuple
