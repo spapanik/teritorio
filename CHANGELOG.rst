@@ -9,6 +9,11 @@ The format is based on `Keep a Changelog`_, and this project adheres to `Calenda
 `Unreleased`_
 -------------
 
+Removed
+^^^^^^^
+
+* Dropped python37 support
+
 `2023.06.16`_
 -------------
 
