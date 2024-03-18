@@ -18,7 +18,7 @@ def parse_args() -> Namespace:
     parser.add_argument(
         "--definitions",
         type=Path,
-        help="xml with country definitions",
+        help="html with country definitions",
         required=True,
     )
     return parser.parse_args()
