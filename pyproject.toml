@@ -129,7 +129,7 @@ skip_empty = true
 
 [tool.poetry]
 name = "teritorio"
-version = "2023.06.16"
+version = "2024.03.18"
 description = "A library for country and currency ISO codes"
 authors = [
     "Stephanos Kuma <stephanos@kuma.ai>",
