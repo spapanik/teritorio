@@ -1217,15 +1217,6 @@
         "name": "Leone",
         "numeric_code": 925
     },
-    "SLL": {
-        "code": "SLL",
-        "entities": [
-            "SIERRA LEONE"
-        ],
-        "minor_units": 2,
-        "name": "Leone",
-        "numeric_code": 694
-    },
     "SOS": {
         "code": "SOS",
         "entities": [

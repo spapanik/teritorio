@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 ### Removed
 
 - Dropped python37 support
+- Removed SLL currency code
 
 ## [2023.06.16]
 

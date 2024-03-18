@@ -429,7 +429,6 @@ class Currencies(DataList[Currency], metaclass=Singleton):
     SGD: Currency
     SHP: Currency
     SLE: Currency
-    SLL: Currency
     SOS: Currency
     SRD: Currency
     SSP: Currency
