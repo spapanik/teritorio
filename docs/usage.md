@@ -14,7 +14,7 @@ instantiated more than once with negligible performance penalty.
 
 Example usage of the `Countries` class.
 
-``` python
+```python
 from teritorio import Countries
 
 # list all countries
@@ -39,7 +39,7 @@ print(countries["DEU"])
 
 Example usage of the `Currencies` class.
 
-``` python
+```python
 from teritorio import Currencies
 
 # list all currencies

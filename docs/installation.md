@@ -1,9 +1,9 @@
 # Installation
 
 The easiest way is to use [poetry](https://python-poetry.org/) to manage
-your dependencies and add *teritorio* to them.
+your dependencies and add _teritorio_ to them.
 
-``` toml
+```toml
 [tool.poetry.dependencies]
 teritorio = "*"
 ```
