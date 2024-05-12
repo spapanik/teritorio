@@ -2,17 +2,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Generic, Iterator, TypeVar
+from typing import Generic, Iterator, TypeVar
+
+from pyutilkit.classes import Singleton
 
 T = TypeVar("T")
-
-class Singleton(type):
-    instance: type[Singleton] | None
-
-    def __init__(
-        cls, name: str, bases: tuple[type[Singleton], ...], dict_: dict[str, Any]
-    ): ...
-    def __call__(cls) -> type[Singleton]: ...
 
 class DataListIterator(Generic[T]):
     values: Iterator[T]

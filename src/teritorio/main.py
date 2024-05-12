@@ -5,22 +5,9 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Generic, TypeVar
 
+from pyutilkit.classes import Singleton
+
 T = TypeVar("T")
-
-
-class Singleton(type):
-    instance: type[Singleton] | None
-
-    def __init__(
-        cls, name: str, bases: tuple[type[Singleton], ...], dict_: dict[str, Any]
-    ):
-        super().__init__(name, bases, dict_)
-        cls.instance = None
-
-    def __call__(cls) -> type[Singleton]:
-        if cls.instance is None:
-            cls.instance = super().__call__()
-        return cls.instance
 
 
 class DataListIterator(Generic[T]):
