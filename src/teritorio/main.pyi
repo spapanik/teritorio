@@ -1,8 +1,9 @@
 from __future__ import annotations
 
+from collections.abc import Iterator
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Generic, Iterator, TypeVar
+from typing import Generic, TypeVar
 
 from pyutilkit.classes import Singleton
 
