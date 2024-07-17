@@ -1349,6 +1349,13 @@
         "name": "Zambian Kwacha",
         "numeric_code": 967
     },
+    "ZWG": {
+        "code": "ZWG",
+        "entities": ["ZIMBABWE"],
+        "minor_units": 2,
+        "name": "Zimbabwe Gold",
+        "numeric_code": 924
+    },
     "ZWL": {
         "code": "ZWL",
         "entities": ["ZIMBABWE"],
