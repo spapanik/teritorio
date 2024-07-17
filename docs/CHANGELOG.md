@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 ## [Unreleased]
 
+## [2024.07.17]
+
 ### Changed
 
 -   Changed license to BSD 3-Clause
@@ -94,7 +96,8 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
 [Calendar Versioning]: https://calver.org
-[Unreleased]: https://github.com/spapanik/teritorio/compare/v2024.03.18...master
+[Unreleased]: https://github.com/spapanik/teritorio/compare/v2024.07.17...master
+[2024.07.17]: https://github.com/spapanik/teritorio/compare/v2024.03.18...v2024.07.17
 [2024.03.18]: https://github.com/spapanik/teritorio/compare/v2023.06.16...v2024.03.18
 [2023.06.16]: https://github.com/spapanik/teritorio/compare/v2023.06.13...v2023.06.16
 [2023.06.13]: https://github.com/spapanik/teritorio/compare/v2023.04.28...v2023.06.13
