@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 ## [Unreleased]
 
+### Changed
+
+-   Changed license to BSD 3-Clause
+
 ## [2024.03.18]
 
 ### Removed
