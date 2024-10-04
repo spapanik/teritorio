@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 ## [Unreleased]
 
+## [2024.10.04]
+
 ### Removed
 
 -   Removed ZWL
@@ -100,7 +102,8 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 [Keep a Changelog]: https://keepachangelog.com/en/1.0.0/
 [Calendar Versioning]: https://calver.org
-[Unreleased]: https://github.com/spapanik/teritorio/compare/v2024.07.17...master
+[Unreleased]: https://github.com/spapanik/teritorio/compare/v2024.10.04...master
+[2024.07.17]: https://github.com/spapanik/teritorio/compare/v2024.07.17...v2024.10.04
 [2024.07.17]: https://github.com/spapanik/teritorio/compare/v2024.03.18...v2024.07.17
 [2024.03.18]: https://github.com/spapanik/teritorio/compare/v2023.06.16...v2024.03.18
 [2023.06.16]: https://github.com/spapanik/teritorio/compare/v2023.06.13...v2023.06.16
