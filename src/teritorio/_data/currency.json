@@ -1355,12 +1355,5 @@
         "minor_units": 2,
         "name": "Zimbabwe Gold",
         "numeric_code": 924
-    },
-    "ZWL": {
-        "code": "ZWL",
-        "entities": ["ZIMBABWE"],
-        "minor_units": 2,
-        "name": "Zimbabwe Dollar",
-        "numeric_code": 932
     }
 }

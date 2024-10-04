@@ -63,7 +63,7 @@ class TestCurrencies:
         assert jpy.minor_units == 0
 
     def test_number_of_currencies(self) -> None:
-        expected_number = 180
+        expected_number = 179
         assert expected_number == len(self.currencies)
         assert expected_number == len(list(self.currencies))
 
