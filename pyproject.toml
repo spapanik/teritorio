@@ -40,8 +40,10 @@ documentation = "https://teritorio.readthedocs.io/en/stable/"
 
 [tool.phosphorus.dev-dependencies]
 dev = [
+    "beautifulsoup4~=4.12",
     "ipdb~=0.13",
     "ipython~=8.18",
+    "lxml~=5.3",
 ]
 lint = [
     "black~=24.8",
