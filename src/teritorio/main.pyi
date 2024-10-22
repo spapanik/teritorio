@@ -32,6 +32,10 @@ class Country:
     numeric_code: int
 
 class Countries(DataList[Country], metaclass=Singleton):
+    _data_path: Path
+    _object_class: type[Country]
+    _data: dict[str, Country]
+
     ABW: Country
     AFG: Country
     AGO: Country
@@ -282,6 +286,11 @@ class Countries(DataList[Country], metaclass=Singleton):
     ZMB: Country
     ZWE: Country
 
+    def __init__(self) -> None: ...
+    def __len__(self) -> int: ...
+    def __getitem__(self, key: str) -> Country: ...
+    def __iter__(self) -> DataListIterator[Country]: ...
+
 @dataclass(frozen=True, order=True)
 class Currency:
     code: str
@@ -291,6 +300,10 @@ class Currency:
     minor_units: int | None
 
 class Currencies(DataList[Currency], metaclass=Singleton):
+    _data_path: Path
+    _object_class: type[Currency]
+    _data: dict[str, Currency]
+
     AED: Currency
     AFN: Currency
     ALL: Currency
@@ -469,4 +482,9 @@ class Currencies(DataList[Currency], metaclass=Singleton):
     YER: Currency
     ZAR: Currency
     ZMW: Currency
-    ZWL: Currency
+    ZWG: Currency
+
+    def __init__(self) -> None: ...
+    def __len__(self) -> int: ...
+    def __getitem__(self, key: str) -> Currency: ...
+    def __iter__(self) -> DataListIterator[Currency]: ...
