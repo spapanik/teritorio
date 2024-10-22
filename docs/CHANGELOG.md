@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 ## [Unreleased]
 
+### Fixed
+
+-   Fixed type hints for Countries and Currencies
+
 ## [2024.10.04]
 
 ### Removed
