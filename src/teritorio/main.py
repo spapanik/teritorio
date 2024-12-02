@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Generic, TypeVar
+from typing import Generic, TypeVar
 
 from pyutilkit.classes import Singleton
 
@@ -79,7 +79,7 @@ class Currencies(DataList[Currency], metaclass=Singleton):
     _object_class = Currency
 
 
-def _list_to_tuple(obj: Any) -> Any:
+def _list_to_tuple(obj: object) -> object:
     if isinstance(obj, list):
         return tuple(obj)
     if isinstance(obj, dict):
