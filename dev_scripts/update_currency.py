@@ -4,9 +4,17 @@ from __future__ import annotations
 import json
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
-from typing import Any
+from typing import TypedDict
 
 from bs4 import BeautifulSoup, Tag
+
+
+class CurrencyDict(TypedDict):
+    code: str
+    entities: list[str]
+    minor_units: int | None
+    name: str
+    numeric_code: int
 
 
 def parse_args() -> Namespace:
@@ -20,12 +28,20 @@ def parse_args() -> Namespace:
     return parser.parse_args()
 
 
-def parse_currency(currency: Tag) -> dict[str, Any] | None:
+def get_tag(tag: Tag, name: str) -> Tag:
+    found = tag.find(name)
+    if not isinstance(found, Tag):
+        msg = f"Tag `{name}` not found in `{tag}`"
+        raise TypeError(msg)
+    return found
+
+
+def parse_currency(currency: Tag) -> CurrencyDict | None:
     code = currency.find("Ccy")
     if not code:
         return None
 
-    minor_units_text = currency.find("CcyMnrUnts").get_text()
+    minor_units_text = get_tag(currency, "CcyMnrUnts").get_text()
     try:
         minor_units = int(minor_units_text)
     except ValueError:
@@ -33,10 +49,10 @@ def parse_currency(currency: Tag) -> dict[str, Any] | None:
 
     return {
         "code": code.get_text().strip(),
-        "entities": [currency.find("CtryNm").get_text().strip()],
+        "entities": [get_tag(currency, "CtryNm").get_text().strip()],
         "minor_units": minor_units,
-        "name": currency.find("CcyNm").get_text().strip(),
-        "numeric_code": int(currency.find("CcyNbr").get_text()),
+        "name": get_tag(currency, "CcyNm").get_text().strip(),
+        "numeric_code": int(get_tag(currency, "CcyNbr").get_text()),
     }
 
 
@@ -44,8 +60,8 @@ def update_currency(definitions: Path) -> None:
     data_path = Path("__file__").parent.joinpath("src/teritorio/_data/currency.json")
     soup = BeautifulSoup(definitions.read_text(), features="xml")
 
-    currencies: dict[str, Any] = {}
-    for currency in soup.find("CcyTbl").find_all("CcyNtry"):
+    currencies: dict[str, CurrencyDict] = {}
+    for currency in get_tag(soup, "CcyTbl").find_all("CcyNtry"):
         parsed_currency = parse_currency(currency)
         if parsed_currency is not None:
             if parsed_currency["code"] in currencies:

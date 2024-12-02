@@ -4,9 +4,17 @@ from __future__ import annotations
 import json
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
-from typing import Any
+from typing import TypedDict
 
 from bs4 import BeautifulSoup, Tag
+
+
+class CountryDict(TypedDict):
+    alpha_2_code: str
+    alpha_3_code: str
+    english_name: str
+    french_name: str
+    numeric_code: int
 
 
 def clean_nbsp(text: str) -> str:
@@ -24,7 +32,16 @@ def parse_args() -> Namespace:
     return parser.parse_args()
 
 
-def parse_country(country: Tag) -> dict[str, Any]:
+def get_tag(tag: Tag, name: str, attributes: dict[str, str] | None = None) -> Tag:
+    attributes = attributes or {}
+    found = tag.find(name, attrs=attributes)
+    if not isinstance(found, Tag):
+        msg = f"Tag `{name}` not found in `{tag}`"
+        raise TypeError(msg)
+    return found
+
+
+def parse_country(country: Tag) -> CountryDict:
     attributes = [td.get_text() for td in country.find_all("td")]
     return {
         "alpha_2_code": attributes[2],
@@ -39,8 +56,9 @@ def update_country(definitions: Path) -> None:
     data_path = Path("__file__").parent.joinpath("src/teritorio/_data/country.json")
     soup = BeautifulSoup(definitions.read_text(), "lxml")
 
-    countries: dict[str, Any] = {}
-    for country in soup.find("table", {"role": "grid"}).find("tbody").find_all("tr"):
+    countries: dict[str, CountryDict] = {}
+    table = get_tag(soup, "table", {"role": "grid"})
+    for country in get_tag(table, "tbody").find_all("tr"):
         parsed_country = parse_country(country)
         countries[parsed_country["alpha_3_code"]] = parsed_country
 
