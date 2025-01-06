@@ -4,6 +4,8 @@
 [![lint][lint_badge]][lint_url]
 [![tests][test_badge]][test_url]
 [![license][licence_badge]][licence_url]
+[![codecov][codecov_badge]][codecov_url]
+[![readthedocs][readthedocs_badge]][readthedocs_url]
 [![pypi][pypi_badge]][pypi_url]
 [![downloads][pepy_badge]][pepy_url]
 [![code style: black][black_badge]][black_url]
@@ -32,6 +34,10 @@ dominated by political decisions, making semantic versioning largely irrelevant.
 [test_url]: https://github.com/spapanik/teritorio/actions/workflows/tests.yml
 [licence_badge]: https://img.shields.io/pypi/l/teritorio
 [licence_url]: https://teritorio.readthedocs.io/en/stable/LICENSE/
+[codecov_badge]: https://codecov.io/github/spapanik/teritorio/graph/badge.svg?token=Q20F84BW72
+[codecov_url]: https://codecov.io/github/spapanik/teritorio
+[readthedocs_badge]: https://readthedocs.org/projects/teritorio/badge/?version=latest
+[readthedocs_url]: https://teritorio.readthedocs.io/en/latest/
 [pypi_badge]: https://img.shields.io/pypi/v/teritorio
 [pypi_url]: https://pypi.org/project/teritorio
 [pepy_badge]: https://pepy.tech/badge/teritorio
