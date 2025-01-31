@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 from typing import TypedDict
@@ -17,8 +18,9 @@ class CountryDict(TypedDict):
     numeric_code: int
 
 
-def clean_nbsp(text: str) -> str:
-    return text.replace("\u00a0", " ").strip()
+def clean_extra_spaces(text: str) -> str:
+    text = text.replace("\u00a0", " ").strip()
+    return re.sub(r"\s+", " ", text)
 
 
 def parse_args() -> Namespace:
@@ -44,10 +46,10 @@ def get_tag(tag: Tag, name: str, attributes: dict[str, str] | None = None) -> Ta
 def parse_country(country: Tag) -> CountryDict:
     attributes = [td.get_text() for td in country.find_all("td")]
     return {
-        "alpha_2_code": attributes[2],
-        "alpha_3_code": attributes[3],
-        "english_name": clean_nbsp(attributes[0]),
-        "french_name": clean_nbsp(attributes[1]),
+        "alpha_2_code": clean_extra_spaces(attributes[2]),
+        "alpha_3_code": clean_extra_spaces(attributes[3]),
+        "english_name": clean_extra_spaces(attributes[0]),
+        "french_name": clean_extra_spaces(attributes[1]),
         "numeric_code": int(attributes[4]),
     }
 
