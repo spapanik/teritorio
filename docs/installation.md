@@ -26,7 +26,7 @@ It is advised to always use the latest release, so that you'll get the latest IS
 
 ## Python Version Requirement
 
-Please note that `teritorio` requires Python 3.9 or higher. If you're not using uv,
+Please note that `teritorio` requires Python 3.10 or higher. If you're not using uv,
 please ensure that you have such a version installed in your system.
 
 [uv]: https://github.com/astral-sh/uv

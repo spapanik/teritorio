@@ -10,6 +10,10 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 - Fixed type hints for Countries and Currencies
 
+### Changed
+
+- Dropped support for python 3.9
+
 ## [2024.10.04]
 
 ### Removed
