@@ -13,6 +13,7 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 ### Changed
 
 - Dropped support for python 3.9
+- Change the name of The Bahamas
 
 ## [2024.10.04]
 
