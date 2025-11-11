@@ -6,7 +6,9 @@ build-backend = "phosphorus.construction.api"
 
 [project]
 name = "teritorio"
-version = "2024.10.04"
+dynamic = [
+    "version",
+]
 
 authors = [
     { name = "Stephanos Kuma", email = "stephanos@kuma.ai" },
@@ -30,7 +32,7 @@ classifiers = [
 
 requires-python = ">=3.10"
 dependencies = [
-    "pyutilkit~=0.10",
+    "pyutilkit~=0.11",
 ]
 
 [project.urls]
@@ -51,7 +53,7 @@ dev = [
 ]
 lint = [
     "mypy~=1.18",  # Keep mypy for CI/CD
-    "ty~=0.0.1a21",
+    "ty~=0.0.1a26",
     "ruff~=0.13",
     "types-beautifulsoup4~=4.12",
     { include-group = "test_core" },
@@ -61,7 +63,7 @@ test = [
     { include-group = "test_core" },
 ]
 test_core = [
-    "pytest~=8.4",
+    "pytest~=9.0",
 ]
 docs = [
     "mkdocs~=1.6",
@@ -70,6 +72,9 @@ docs = [
     "pygments~=2.19",
     "pymdown-extensions~=10.15",
 ]
+
+[tool.phosphorus.dynamic]
+version = { file = "src/teritorio/__version__.py" }
 
 [tool.mypy]
 # Keep mypy for CI/CD
@@ -145,8 +150,13 @@ forced-separate = [
 split-on-trailing-comma = false
 
 [tool.pytest.ini_options]
-addopts = "-ra -v"
-testpaths = "tests"
+minversion = "9.0"
+strict = true
+addopts = ["-ra", "-v"]
+testpaths = [
+    "tests",
+    "integration",
+]
 
 [tool.coverage.run]
 branch = true
@@ -155,7 +165,7 @@ source = [
 ]
 data_file = ".cov_cache/coverage.dat"
 omit = [
-    "src/teritorio/lib/type_defs.py",
+    "src/**/type_defs.py",
 ]
 
 [tool.coverage.report]
