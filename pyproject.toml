@@ -73,8 +73,8 @@ docs = [
     "pymdown-extensions~=10.15",
 ]
 
-[tool.phosphorus.dynamic]
-version = { file = "src/teritorio/__version__.py" }
+[tool.phosphorus.dynamic.version]
+file = "src/teritorio/__version__.py"
 
 [tool.mypy]
 # Keep mypy for CI/CD
@@ -149,13 +149,12 @@ forced-separate = [
 ]
 split-on-trailing-comma = false
 
-[tool.pytest.ini_options]
+[tool.pytest]
 minversion = "9.0"
 strict = true
 addopts = ["-ra", "-v"]
 testpaths = [
     "tests",
-    "integration",
 ]
 
 [tool.coverage.run]
