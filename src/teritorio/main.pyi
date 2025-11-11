@@ -308,7 +308,6 @@ class Currencies(DataList[Currency], metaclass=Singleton):
     AFN: Currency
     ALL: Currency
     AMD: Currency
-    ANG: Currency
     AOA: Currency
     ARS: Currency
     AUD: Currency
@@ -341,7 +340,6 @@ class Currencies(DataList[Currency], metaclass=Singleton):
     COP: Currency
     COU: Currency
     CRC: Currency
-    CUC: Currency
     CUP: Currency
     CVE: Currency
     CZK: Currency
@@ -462,6 +460,7 @@ class Currencies(DataList[Currency], metaclass=Singleton):
     VND: Currency
     VUV: Currency
     WST: Currency
+    XAD: Currency
     XAF: Currency
     XAG: Currency
     XAU: Currency
@@ -470,6 +469,7 @@ class Currencies(DataList[Currency], metaclass=Singleton):
     XBC: Currency
     XBD: Currency
     XCD: Currency
+    XCG: Currency
     XDR: Currency
     XOF: Currency
     XPD: Currency

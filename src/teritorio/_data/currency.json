@@ -27,13 +27,6 @@
     "name": "Armenian Dram",
     "numeric_code": 51
   },
-  "ANG": {
-    "code": "ANG",
-    "entities": ["CURA\u00c7AO", "SINT MAARTEN (DUTCH PART)"],
-    "minor_units": 2,
-    "name": "Netherlands Antillean Guilder",
-    "numeric_code": 532
-  },
   "AOA": {
     "code": "AOA",
     "entities": ["ANGOLA"],
@@ -266,13 +259,6 @@
     "minor_units": 2,
     "name": "Costa Rican Colon",
     "numeric_code": 188
-  },
-  "CUC": {
-    "code": "CUC",
-    "entities": ["CUBA"],
-    "minor_units": 2,
-    "name": "Peso Convertible",
-    "numeric_code": 931
   },
   "CUP": {
     "code": "CUP",
@@ -1182,6 +1168,13 @@
     "name": "Tala",
     "numeric_code": 882
   },
+  "XAD": {
+    "code": "XAD",
+    "entities": ["ARAB MONETARY FUND"],
+    "minor_units": 2,
+    "name": "Arab Accounting Dinar",
+    "numeric_code": 396
+  },
   "XAF": {
     "code": "XAF",
     "entities": [
@@ -1253,6 +1246,13 @@
     "minor_units": 2,
     "name": "East Caribbean Dollar",
     "numeric_code": 951
+  },
+  "XCG": {
+    "code": "XCG",
+    "entities": ["CURA\u00c7AO", "SINT MAARTEN (DUTCH PART)"],
+    "minor_units": 2,
+    "name": "Caribbean Guilder",
+    "numeric_code": 532
   },
   "XDR": {
     "code": "XDR",

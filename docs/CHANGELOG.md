@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 ## [Unreleased]
 
+### Added
+
+- Added XAD
+
+### Removed
+
+- Removed CUC
+
 ### Fixed
 
 - Fixed type hints for Countries and Currencies
@@ -14,6 +22,7 @@ The format is based on [Keep a Changelog], and this project adheres to [Calendar
 
 - Dropped support for python 3.9
 - Change the name of The Bahamas
+- Changed the name of the Caribbean Guilder
 
 ## [2024.10.04]
 
