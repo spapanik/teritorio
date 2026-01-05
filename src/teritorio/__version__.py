@@ -1,1 +1,3 @@
-__version__ = "2025.11.11"
+from importlib.metadata import version
+
+__version__ = version("teritorio")
